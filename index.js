@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { Schema, model } from "mongoose";
 
 
-mongoose.connect("mongodb+srv://Ryan:bkpX0iqrmHzx1FW7@users.ri0aenc.mongodb.net/");
+mongoose.connect("mongodb+srv://Ryan:<password>@users.ri0aenc.mongodb.net/");
 
 
 const userSchema = new Schema({
